@@ -64,7 +64,7 @@
             document.getElementById('fact').innerText = randomFact;
 
             // Generate a random picture
-            fetch('https://source.unsplash.com/random/800x600')
+            fetch('https://thispersondoesnotexist.com/')
                 .then(response => {
                     document.getElementById('picture').src = response.url;
                 })
